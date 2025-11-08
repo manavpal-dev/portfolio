@@ -32,7 +32,7 @@ const About = () => {
               words={["Software Engineer", "Fullstack Developer", "coder"]}
               typeSpeed={90}
               deleteSpeed={55}
-              delaySpeed={500}
+              delaySpeed={1000}
               loop={true}
               cursor
               cursorStyle="|"
@@ -83,7 +83,7 @@ const About = () => {
           >
             <img
               src={profileImage}
-              alt={"Manav Pal"}
+              alt="Manav Pal -- Full Stack Developer"
               loading="eager"
               decoding="async"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
